@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import SubHeader from './Components/SubHeader';
+import Experience from "./Components/Experience";
+import ApplyNow from "./Components/ApplyNow";
+import CatchUp from './Components/CatchUp';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Westminster app */}
+      <Header />
+      <SubHeader />
+      <Experience />
+      <ApplyNow />
+      <CatchUp />
+      <Footer />
+
     </div>
   );
 }
+
+
 
 export default App;

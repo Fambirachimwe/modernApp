@@ -1,0 +1,26 @@
+.subHeader {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background-color: #1410107a;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    color: yellow;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.slider {
+    width: 100%;
+    height: 70vh;
+    /* background-color: green; */
+    background-image: url("../images/sliderImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
